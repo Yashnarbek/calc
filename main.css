@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Digital Counter 7  ';
+    src: url('./fonts/DigitalCounter7.woff2') format('woff2'),
+        url('./fonts/DigitalCounter7.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.box{
+    width: 500px;
+    height: 250px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+}
+h1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    font-size: 54px;
+    background-color: rgb(165, 134, 134);
+    border: 3px inset black;
+    font-family: 'Digital Counter 7  ';
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 100px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    font-size: 35px;
+    font-weight: bold;
+}
+.equal{
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 100px;
+    padding: 8px;
+    
+}
+select{
+    border: none;
+    outline: none;
+    font-size: 40px;
+}
